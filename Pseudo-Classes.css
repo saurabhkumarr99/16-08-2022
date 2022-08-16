@@ -1,0 +1,95 @@
+body {
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container1 {
+    display: flex;
+    font-size: 30px;
+}
+
+#navbar {
+    position: relative;
+    left: 770px;
+}
+
+#navbar a {
+    text-decoration: none;
+    border: blue solid 3px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#social {
+    position: relative;
+    left: 1200px;
+}
+
+#social a {
+    text-decoration: none;
+}
+
+section {
+    background-color: aquamarine;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.container{
+    border: solid blue 7px;
+    background-color: darkkhaki;
+    width: 80%;
+    height: 300px;
+    position: relative;
+    left: 200px;
+}
+
+p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: darkgreen;
+}
+
+p:nth-child(2){
+    color: darkblue;
+}
+
+
+div:empty{
+    border: solid black 5px;
+    background-color: lawngreen;
+}
+
+button {
+    border: blue solid 3px;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: dimgray;
+}
+
+
+
+footer {
+    background-color: cadetblue;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}

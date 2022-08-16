@@ -1,0 +1,116 @@
+body {
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+
+.container1 {
+    display: flex;
+    font-size: 30px;
+}
+
+#navbar {
+    position: relative;
+    left: 770px;
+}
+
+#navbar a {
+    text-decoration: none;
+    border: blue solid 3px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#social {
+    position: relative;
+    left: 1250px;
+}
+
+#social a {
+    text-decoration: none;
+}
+
+section {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+button {
+    border: blue solid 3px;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: dimgray;
+}
+
+.container {
+    border: solid red 5px;
+    background-color: aqua;
+    height: 200px;
+    width: 80%;
+    position: relative;
+    left: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#box1 {
+    border: solid rgb(47, 11, 225) 5px;
+    background-color: rgb(229, 26, 26);
+    height: 100px;
+    width: 50%;
+    position: relative;
+    left: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#box2 {
+    border: solid rgb(47, 11, 225) 5px;
+    background-color: rgb(229, 26, 26);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+#box3 {
+    border: solid rgb(47, 11, 225) 5px;
+    background-color: rgb(229, 26, 26);
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 50px;
+    padding: 10px;
+}
+
+#box4 {
+    border: solid rgb(47, 11, 225) 5px;
+    background-color: rgb(229, 26, 26);
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    bottom: 50px;
+    padding: 10px;
+}
+
+footer {
+    background-color: cadetblue;
+    text-align: center;
+}
